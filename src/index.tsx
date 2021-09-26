@@ -8,7 +8,6 @@ import { App } from './App';
 createServer({
   routes() {
     this.namespace = 'api';
-
     this.get('/trasactions', () => {
       return [
         {
